@@ -88,14 +88,14 @@ p {
   padding-top: 1rem;
   display: flex;
   justify-content: center;
-  color: #F5FFFA;
+
 }
 .container .final-content .walk-text {
   Width: 60%;
 }
 .container .final-content .walk-text h3 {
   margin-bottom: 10px;
-  color: #F5FFFA;
+  color: #4682B4;
   font-size: 2rem;
 }
 .container .final-content .walk-text p {
