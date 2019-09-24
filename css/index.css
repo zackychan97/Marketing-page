@@ -29,7 +29,7 @@ h3,
 h4,
 h5 {
   font-family: 'Merriweather', serif;
-  color: black;
+  color: #4682B4;
 }
 h2 {
   font-size: 3.2rem;
@@ -45,19 +45,20 @@ p {
   max-width: 100%;
   width: 100%;
   margin: 0 auto;
-  background: teal;
+  background: #AFEEEE;
 }
 .container .intro h2 {
   padding: 15px;
   font-size: 2rem;
-  color: #F5FFFA;
 }
 .container .intro p {
   padding: 0 15px;
-  color: #F5FFFA;
 }
 .container .intro img {
-  width: 100%;
+  width: 80%;
+  padding-left: 20%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 .container .headImages {
   display: flex;
@@ -76,14 +77,14 @@ p {
 .container .mid-content h3 {
   margin-top: 13px;
   font-size: 2rem;
-  color: #F5FFFA;
+  color: #4682B4;
 }
 .container .mid-content p {
   margin-top: 15px;
-  color: #F5FFFA;
+  color: black;
 }
 .container .final-content {
-  border-top: 8px solid #F5FFFA;
+  border-top: 8px solid #4682B4;
   padding-top: 1rem;
   display: flex;
   justify-content: center;
@@ -116,7 +117,7 @@ p {
   padding-left: 37%;
 }
 .container .nav-div .navbar .nav-header h1 {
-  color: #F0FFF0;
+  color: #4682B4;
 }
 .container .nav-div .navbar .nav-links {
   display: flex;
@@ -124,7 +125,7 @@ p {
 }
 .container .nav-div .navbar .nav-links a {
   text-decoration: none;
-  color: #F0FFF0;
+  color: #4682B4;
   font-size: 1.5rem;
   padding: 2rem;
 }
