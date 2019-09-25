@@ -76,30 +76,35 @@ p {
 }
 .container .mid-content h3 {
   margin-top: 13px;
-  font-size: 2rem;
+  font-size: 2.2rem;
   color: #4682B4;
 }
 .container .mid-content p {
   margin-top: 15px;
   color: black;
+  font-size: 1.5rem;
 }
 .container .final-content {
   border-top: 8px solid #4682B4;
   padding-top: 1rem;
   display: flex;
   justify-content: center;
-
+  color: #F5FFFA;
 }
 .container .final-content .walk-text {
-  Width: 60%;
+  Width: 45%;
+  padding-right: 6%;
+  padding-top: 3%;
 }
 .container .final-content .walk-text h3 {
   margin-bottom: 10px;
   color: #4682B4;
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 .container .final-content .walk-text p {
   margin-bottom: 25px;
+  font-size: 1.5rem;
+  color: black;
 }
 .container .final-content .walk-img img {
   width: 100%;
