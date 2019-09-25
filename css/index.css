@@ -1,0 +1,264 @@
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Merriweather Regular'), local('Merriweather-Regular'), url(https://fonts.gstatic.com/s/merriweather/v21/u-440qyriQwlOrhSvowK_l5-fCZJ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Teko Regular'), local('Teko-Regular'), url(https://fonts.gstatic.com/s/teko/v9/LYjNdG7kmE0gfaN9oA.ttf) format('truetype');
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Teko', sans-serif;
+  color: black;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Merriweather', serif;
+  color: #4682B4;
+}
+h2 {
+  font-size: 3.2rem;
+}
+h3 {
+  font-size: 2.8rem;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+.container {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  background: #AFEEEE;
+}
+.container .intro h2 {
+  padding: 15px;
+  font-size: 2rem;
+}
+.container .intro p {
+  padding: 0 15px;
+}
+.container .intro img {
+  width: 80%;
+  padding-left: 20%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.container .headImages {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.container .headImages img {
+  width: 28%;
+  margin: 20px 2.5%;
+  border-radius: 20px;
+  height: 100%;
+}
+.container .mid-content {
+  padding: 15px;
+}
+.container .mid-content h3 {
+  margin-top: 13px;
+  font-size: 2.2rem;
+  color: #4682B4;
+}
+.container .mid-content p {
+  margin-top: 15px;
+  color: black;
+  font-size: 1.5rem;
+}
+.container .final-content {
+  border-top: 8px solid #4682B4;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  color: #F5FFFA;
+}
+.container .final-content .walk-text {
+  Width: 45%;
+  padding-right: 6%;
+  padding-top: 3%;
+}
+.container .final-content .walk-text h3 {
+  margin-bottom: 10px;
+  color: #4682B4;
+  font-size: 2.2rem;
+}
+.container .final-content .walk-text p {
+  margin-bottom: 25px;
+  font-size: 1.5rem;
+  color: black;
+}
+.container .final-content .walk-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.container .nav-div {
+  display: flex;
+  justify-content: center;
+}
+.container .nav-div .navbar .nav-header {
+  font-size: 4rem;
+  padding-bottom: 1.6rem;
+  width: 100%;
+  padding-left: 37%;
+}
+.container .nav-div .navbar .nav-header h1 {
+  color: #4682B4;
+}
+.container .nav-div .navbar .nav-links {
+  display: flex;
+  justify-content: space-between;
+}
+.container .nav-div .navbar .nav-links a {
+  text-decoration: none;
+  color: #4682B4;
+  font-size: 2.4rem;
+  padding: 1.4rem;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
